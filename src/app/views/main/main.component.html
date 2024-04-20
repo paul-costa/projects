@@ -1,0 +1,11 @@
+<div class="container">
+
+    <ng-container *ngFor="let project of projects">
+        <mat-card class="project-card" (click)="onOpenProject(project)" [ngClass]="{disabled: !project.link}">
+            <div class="header">
+                <mat-icon class="icon material-symbols-outlined">{{project.matIcon}} </mat-icon>
+                <span>{{project.title}}</span>
+            </div>
+        </mat-card>
+    </ng-container>
+</div>
