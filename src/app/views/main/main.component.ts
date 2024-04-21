@@ -24,6 +24,12 @@ export class MainComponent {
       link: 'https://pain-diary-88de2.web.app/',
     },
     {
+      id: 'book-covers',
+      title: 'Book Covers',
+      matIcon: 'auto_stories',
+      link: 'https://book-cover-lcd.web.app/',
+    },
+    {
       id: 'none',
       title: 'TBC',
       matIcon: 'more_horiz',
