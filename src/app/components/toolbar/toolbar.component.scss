@@ -1,0 +1,23 @@
+.toolbar {
+  .row {
+    justify-content: space-between;
+
+    span {
+      font-size: 36px;
+      margin-left: 24px;
+    }
+
+    button {
+      margin-right: 24px;
+      min-width: 96px;
+      min-height: 48px;
+
+      mat-icon {
+        margin: 0;
+        font-size: 36px;
+        min-height: 36px;
+        min-width: 36px;
+      }
+    }
+  }
+}

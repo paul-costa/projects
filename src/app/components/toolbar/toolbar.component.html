@@ -1,0 +1,8 @@
+<mat-toolbar color="primary" class="toolbar">
+    <mat-toolbar-row class="row">
+        <span>{{title}}</span>
+        <button mat-raised-button [matTooltip]="contact.tooltip" (click)="contact.onClick">
+            <mat-icon class="icon material-symbols-outlined">{{contact.matIcon}}</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>

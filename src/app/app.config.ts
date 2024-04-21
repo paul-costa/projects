@@ -14,3 +14,9 @@ export interface Project {
   link?: string;
   enabled?: boolean;
 }
+
+export interface ToolbarButtonConfig {
+  tooltip: string;
+  matIcon: string;
+  onClick: () => void;
+}
