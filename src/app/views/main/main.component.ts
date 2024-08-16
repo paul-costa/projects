@@ -30,6 +30,12 @@ export class MainComponent {
       link: 'https://book-cover-lcd.web.app/',
     },
     {
+      id: 'wedding-costa-wien',
+      title: 'Wedding Costa',
+      matIcon: 'bookmark_heart',
+      link: 'https://wedding.costa.wien/',
+    },
+    {
       id: 'none',
       title: 'TBC',
       matIcon: 'more_horiz',
