@@ -1,17 +1,12 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { Project } from '../../app.config';
 import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 
-const materialModules = [MatIconModule, MatCardModule];
-const components = [ToolbarComponent];
-
 @Component({
   selector: 'app-main',
-  standalone: true,
-  imports: [CommonModule, materialModules, components],
+  imports: [MatIconModule, MatCardModule, ToolbarComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',
 })
@@ -34,6 +29,12 @@ export class MainComponent {
       title: 'Wedding Costa',
       matIcon: 'bookmark_heart',
       link: 'https://wedding.costa.wien/',
+    },
+    {
+      id: 'linkedin-fetcher',
+      title: 'LinkedIn Fetcher',
+      matIcon: 'add_home_work',
+      link: 'https://linkedin-fetcher-app.web.app/',
     },
     {
       id: 'none',

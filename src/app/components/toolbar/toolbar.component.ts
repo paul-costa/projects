@@ -5,17 +5,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ToolbarButtonConfig } from '../../app.config';
 
-const materialModules = [
-  MatToolbarModule,
-  MatIconModule,
-  MatTooltipModule,
-  MatButtonModule,
-];
-
 @Component({
   selector: 'app-toolbar',
-  standalone: true,
-  imports: [materialModules],
+  imports: [MatToolbarModule, MatIconModule, MatTooltipModule, MatButtonModule],
   templateUrl: './toolbar.component.html',
   styleUrl: './toolbar.component.scss',
 })
